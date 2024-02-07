@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/autodrive/catkin_ws/devel/include/**",
+        "/home/autodrive/catkin_ws/src/bid_pkg/include/**",
+        "/home/autodrive/catkin_ws/src/ros_jenkins/include/**",
+        "/home/autodrive/catkin_ws/src/scoring_can_manager/include/**",
+        "/home/autodrive/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/autodrive/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/autodrive/catkin_ws/src/v2x_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
