@@ -24,12 +24,6 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       - run: echo "ROS BuildFarm is running..."
-      - name: ROS BuildFarm
-        uses: jspricke/ros-deb-builder-action@main
-        with:
-          ROS_DISTRO: noetic
-          DEB_DISTRO: focal
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: echo "ROS BuildFarm is done running."
       - name: List files in the repository
         run: |
