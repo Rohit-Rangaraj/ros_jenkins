@@ -1,4 +1,4 @@
-name: ROS Catkin Build Check
+name: ROS Catkin Build Check 1
 run-name: ${{ github.actor }} is building ${{ github.repository }}.
 
 on:
